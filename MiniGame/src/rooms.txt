@@ -1,0 +1,48 @@
+ID = 1
+name = Beginning
+description = You are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits
+WEST = 2
+
+ID = 2
+name = Entrance
+description = You have entered a dark low cave that seems to lead to a slightly larger cavern to the west. Strangely you see a faint glow coming from the east.
+exits
+EAST = 1
+WEST = 3
+
+ID = 3
+name = Cavern
+description = You enter a large cavern. You are surprised to find that the walls of the cave are glowing so you have no problem seeing the large stalactites that have formed. To the south you hear the sound of rushing water. To the north you hear strange sounds that sound like someone with a broken heart. You see as set of stairs at the west end of the cavern.
+exits
+EAST = 2
+NORTH = 4
+DOWN = 6
+
+ID = 4
+name = Spooky Cave
+description = You have entered a dark twisting tunnel that seems to wind around the Cavern. The low wailing you heard before has risen to a screech that is making your hair stand on end. You see a sign that says "Proceed at your own risk. Anyone entering this area will be eaten.
+exits
+SOUTH = 3
+NORTH = 5
+
+ID = 5
+name = Rushing River
+description = You have entered a wet slippery cave. You are standing on a narrow ledge. As you slip toward the rushing river you think "I shouldn't be here.
+exits
+SOUTH = 6
+
+ID = 6
+name = Second level
+description = At the bottom of the stairs you see a skeleton from a previous adventurer. You really wish you had some good weapons.
+exits
+UP = 3
+NORTH = 4
+SOUTH = 5
+WEST = 7
+
+ID = 7
+name = Dead End
+description = As you enter this dark and forbidding cavern you hear the roar of some enormous monster. You decide that leaving this place would be a great idea.
+exits
+SOUTH = 6
